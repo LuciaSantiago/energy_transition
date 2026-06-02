@@ -33,6 +33,28 @@
   max-width: 1400px;
 }
 
+.comparison-grid .card {
+  min-width: 0;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comparison-grid .flourish-embed {
+  flex: 1;
+  min-height: 620px;
+  overflow: hidden;
+}
+
+.comparison-grid iframe {
+  width: 100% !important;
+  height: 620px !important;
+}
+
+.comparison-grid .card {
+  padding: 1.5rem;
+}
+
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
