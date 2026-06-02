@@ -41,6 +41,27 @@ header p {
   font-weight: 300;
   opacity: 0.9;
 }
+.analysis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.analysis-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.analysis-text h3 {
+  color: var(--green-dark);
+  margin-bottom: 1rem;
+}
+
+.analysis-text p {
+  color: var(--muted);
+}
 
 section {
   max-width: 1050px;
