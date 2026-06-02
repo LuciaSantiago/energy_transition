@@ -8,6 +8,27 @@
   --white: #ffffff;
 }
 
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: start;
+}
+
+.card h3 {
+  color: var(--green-dark);
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
