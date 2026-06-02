@@ -29,6 +29,10 @@
   }
 }
 
+.wide-section {
+  max-width: 1400px;
+}
+
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
