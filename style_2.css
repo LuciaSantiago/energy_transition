@@ -102,7 +102,7 @@ section h2 {
 }
 
 section p {
-  max-width: 760px;
+  max-width: none;
   font-size: 1.1rem;
   color: var(--muted);
 }
