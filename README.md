@@ -8,5 +8,3 @@ En esta práctica se ha generado un Storytelling sobre la transición energétic
 En este repositorio se incluyen los códigos usados para tratar el primero de los datasets. Así como los datos usados para las diferentes visualizaciones, realizadas con Flourish y Tableau Public, muchos de los datos han tenido que ser modificados manualmente debido al formato en el que se encontraban.
 
 La visualización se ha subido en una página de github.io.
-
-Se ha utilizado IA generativa (ChatGPT) para apoyar la implementación del html y el css, así cómo para resolver problemas de código.
