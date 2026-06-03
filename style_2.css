@@ -123,6 +123,16 @@ section p,
   align-items: start;
 }
 
+section ul {
+  font-size: 1.18rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+section li {
+  margin-bottom: 0.6rem;
+}
+
 .scroll-down {
   margin-top: 4rem;
   font-size: 2rem;
