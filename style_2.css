@@ -134,7 +134,9 @@ footer {
   color: white;
 }
 
-section p {
+section p,
+.card p,
+.analysis-text p {
   text-align: justify;
   text-justify: inter-word;
 }
