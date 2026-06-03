@@ -172,3 +172,42 @@ footer p {
     padding: 1.2rem;
   }
 }
+
+.sources-section {
+  padding-top: 40px;
+}
+
+.sources-card {
+  margin-top: 1.5rem;
+  padding: 1.6rem 2rem;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(18, 55, 42, 0.10);
+}
+
+.sources-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.sources-card li {
+  font-size: 1.12rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.sources-card li:last-child {
+  margin-bottom: 0;
+}
+
+.sources-card a {
+  color: var(--green);
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 0.4rem;
+}
+
+.sources-card a:hover {
+  text-decoration: underline;
+}
