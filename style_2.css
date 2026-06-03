@@ -139,5 +139,10 @@ section p,
 .analysis-text p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.section p {
+  text-align: justify;
+  text-justify: inter-word;
   max-width: none;
 }
